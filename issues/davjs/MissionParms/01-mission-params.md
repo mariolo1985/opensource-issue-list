@@ -65,5 +65,5 @@ After making your changes, make sure the tests still pass by running `npm run je
 
 We appreciate your effort in taking the time to work on this issue and help out the open source community and the foundation. If you need any help, feel free to ask below or in our [gitter channel](https://gitter.im/DAVFoundation/DAV-Contributors). We are always happy to help 😄
 
-[parameters]: https://raw.githubusercontent.com/mariolo1985/Simply-Paging/fix/controlstyle/demo/images/demo_sm.gif "Update Parameters"
+[parameters]: https://raw.githubusercontent.com/mariolo1985/opensource-issue-list/update/missionParams/issues/davjs/MissionParms/01_mission_params.gif "Update Parameters"
 
