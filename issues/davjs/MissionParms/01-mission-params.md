@@ -40,13 +40,13 @@ const serializedMissionParams: any = {
 };
 ```
 
-These parameters will need to accommodate new tests. 
+These parameters will need to accommodate additional unit tests. 
 
 Please update these parameters to be more dynamic by defining them to be mutable similar to `src/vessel-charging/MissionParams.test.ts`.
 
 ![Parameters][parameters]
 
-After making your changes, make sure the tests still pass by running `npm run jest`
+After making your changes, run `npm run jest` to make sure our tests are passing.
 
 ### Contributing to dav-js
 
