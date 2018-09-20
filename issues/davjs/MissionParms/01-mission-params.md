@@ -20,15 +20,33 @@ This repo contains the DAV JavaScript SDK. This SDK allows developers to build a
 
 ## How you can help
 
+In order to foster a community that is welcoming for open source contributions, it is important for us to have good test coverage. And good tests are simple, readable tests.
+
+Here is a good opportunity to simplify one of our tests.
+
 ### The Issue
 
+In `src/ride-hailing/MissionParams.test.ts` we defined the following parameters at the beginning of the `describe()` block.
 
+```javascript
+const missionParams = new MissionParams({});
 
+const serializedMissionParams: any = {
+    ttl: undefined,
+    protocol: 'ride_hailing',
+    type: 'mission',
+    price: undefined,
+    vehicleId: undefined,
+};
+```
 
+These parameters will need to accommodate additional unit tests. 
 
+Please update these parameters to be more dynamic by defining them to be mutable similar to `src/vessel-charging/MissionParams.test.ts`.
 
+![Parameters][parameters]
 
-
+After making your changes, run `npm run jest` to make sure our tests are passing.
 
 ### Contributing to dav-js
 
@@ -36,6 +54,7 @@ This repo contains the DAV JavaScript SDK. This SDK allows developers to build a
 - [ ] Comment in this issue that you would like to do it.
 - [ ] Open [dav-js GitHub page](https://github.com/DAVFoundation/dav-js) and click the ★ Star and then ⑂ Fork buttons.
 - [ ] Clone a copy to your local machine with `$ git clone git@github.com:YOUR-GITHUB-USER-NAME/dav-js.git`
+- [ ] Install dependencies by running `npm install`
 - [ ] **Code Code Code**
 - [ ] Once you've made sure all your changes work correctly and committed all your changes, push your local changes back to github with `$ git push -u origin master`
 - [ ] Visit your fork on GitHub.com ([https://github.com/YOUR-USER-NAME/dav-js](https://github.com/YOUR-USER-NAME/dav-js)) and create a pull request for your changes.
@@ -45,3 +64,6 @@ This repo contains the DAV JavaScript SDK. This SDK allows developers to build a
 ### Asking for help
 
 We appreciate your effort in taking the time to work on this issue and help out the open source community and the foundation. If you need any help, feel free to ask below or in our [gitter channel](https://gitter.im/DAVFoundation/DAV-Contributors). We are always happy to help 😄
+
+[parameters]: https://raw.githubusercontent.com/mariolo1985/opensource-issue-list/update/missionParams/issues/davjs/MissionParms/01_mission_params.gif "Update Parameters"
+
