@@ -33,11 +33,15 @@ This repo contains the DAV JavaScript SDK. This SDK allows developers to build a
 ### Contributing to dav-js
 
 - [ ] Make sure this issue is labeled `up-for-grabs` and not labeled `claimed`, to verify no one else is working on it.
-- [ ] Comment in this issue that you would like to do it.
-- [ ] Open [dav-js GitHub page](https://github.com/DAVFoundation/dav-js) and click the ★ Star and then ⑂ Fork buttons.
+- [ ] Comment on this issue that you would like to do it (if you're the first you can start working on it immediately)
+- [ ] Open [dav-js GitHub page](https://github.com/DAVFoundation/dav-js) and click the ★ Star and then ⑂ Fork buttons
 - [ ] Clone a copy to your local machine with `$ git clone git@github.com:YOUR-GITHUB-USER-NAME/dav-js.git`
+- [ ] Install dependencies by running `npm install`
+- [ ] Make sure everything is working and all tests pass by running `npm run jest`
 - [ ] **Code Code Code**
-- [ ] Once you've made sure all your changes work correctly and committed all your changes, push your local changes back to github with `$ git push -u origin master`
+- [ ] Make sure everything is still working and all tests pass by running `npm run jest` again
+- [ ] Commit all your changes
+- [ ] Push your local changes back to github with `$ git push -u origin master`
 - [ ] Visit your fork on GitHub.com ([https://github.com/YOUR-USER-NAME/dav-js](https://github.com/YOUR-USER-NAME/dav-js)) and create a pull request for your changes.
 - [ ] Make sure your pull request describes exactly what you changed and references this issue (include the issue number in the title like this: `#7`)
 - [ ] Please do not fix more than one issue at a time. Your pull request should only fix what is described in this issue.
