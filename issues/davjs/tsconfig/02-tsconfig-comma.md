@@ -24,7 +24,9 @@ At the root level, we have a file named `tsconfig.json`. The JSON object contain
 
 ![Comma][comma]
 
-Please remove the trailing commas highlighted in the screenshot above. This are highlighted if you have configured **ES Lint** with a rule for __comma-dangle__.
+Please remove the trailing commas highlighted in the screenshot above. 
+
+> These highlights can be configured with **ES Lint** by setting a rule for __comma-dangle__.
 
 ### Contributing to dav-js
 
