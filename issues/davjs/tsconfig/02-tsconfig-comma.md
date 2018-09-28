@@ -43,4 +43,4 @@ Please remove the trailing commas highlighted in the screenshot above. This are 
 We appreciate your effort in taking the time to work on this issue and help out the open source community and the foundation. If you need any help, feel free to ask below or in our [gitter channel](https://gitter.im/DAVFoundation/DAV-Contributors). We are always happy to help 😄
 
 
-[comma]: https://raw.githubusercontent.com/mariolo1985/opensource-issue-list/update/missionParams/issues/davjs/tsconfig/trailingcomma.png "Trailing Commas"
+[comma]: https://raw.githubusercontent.com/mariolo1985/opensource-issue-list/newissue/tsconfigComma/issues/davjs/tsconfig/trailingcomma.png "Trailing Commas"
